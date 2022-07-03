@@ -20,8 +20,25 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
+	text-shadow: 9px 2px 8px ;
 }
 
+div {margin: auto;
+
+	text-align: center;
+color: #b3c4b1;}
+
+.er{margin: auto; text-align: center; font-size: xx-large;}
+.an{text-align: right; font-size: x-large; margin: auto;}
+
+.haj{text-align: center;
+margin: auto;
+color: black;
+border-radius: 46px;
+background: white;
+box-shadow: 13px 13px 26px black;
+
+text-shadow: 0px 0px 5px ;}
 body {
 	line-height: 1;
 }
@@ -194,8 +211,10 @@ a:focus {
 	outline: 1px dotted;
 }
 
-.more {
-	text-decoration: underline !important;
+.save {
+	text-decoration: underline  ;
+	text-shadow: 9px 15px 9px;
+
 }
 
 /* Spacing
@@ -405,7 +424,8 @@ nav ul li a.selected:hover {
 }
 
 .colRight {
-	float: right;
+	margin: auto;
+	text-align: right;
 	width: 47.916666666667%; /* 460/960 */
 	border: none;
 }

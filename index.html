@@ -2,12 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <meta name="Description" content="Autumn Theme">
+    <meta name="Description" content="یادبود اموات ">
 	<meta name="viewport" content="width=device-width" />
     <meta name="author" content="Hossein Rouhi, Inc.">
     <meta name="Copyright" content="Copyright (c) 2022 Hossein Rouhi, all rights reserved.">
     <meta name="google-site-verification" content="_j3M9zrxAhhVQ_UtkuCCd_bZBRmznbpXIeHGisyJPuo" />
-    <title>yadbood - Home</title>
+    <meta name="theme-color" content="#6F856C">
+    <meta name="keywords" content="memorial, memory, haj mansour shirazi, یادبود">
+    <title>yadbood - Home یادبود</title>
     <!--[if IE]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -26,30 +28,78 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-		<img src="images/banner.jpg" alt="" border="0">
+		<img src="images/banner.jpg" alt="yadbood یادبود" class="b">
         <section class="columns clear">
             <div class="colLeft">
 
                 <a class="more" href="https://fatehe-online.ir/2727009"></a>
             </div>
             <div class="colRight">
-                 <p> حاج منصور شیرازی </p>
-                <p>به یاد عزیزان سفر کرده</p>
-                <p> برای شادی روح رفتگان،  </p>
-                <p> کسانی که بودند و دیگر نیستند</p>
-                <p>بخوانیم فاتحه و صلوات</p>
-                <a class="more" href="https://fatehe-online.ir/2727009">برای ثبت صلوات و فاتحه کلیک کنید.</a>
+                 <div class="haj"><h2> حاج منصور شیرازی </h2></div>
+                 <p>.</p>
+                <h2>به یاد عزیزان سفر کرده</h2>
+                <h2> برای شادی روح رفتگان،  </h2>
+                <h2> کسانی که بودند و دیگر نیستند</h2>
+                <h2>بخوانیم فاتحه و صلوات</h2>
+                
+
+
+               <div class="s"> <script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "شما تا این لحظه " + localStorage.clickcount + "مرتبه صلوات فرستاده اید." ;
+  } else {
+    document.getElementById("result").innerHTML = "ببخشید... مرورگر شما از این قابلیت پشتیبانی نمیکند...";
+  }
+}
+</script>
+</div>
+
+
+
+
+
+
+
+
+<p><button onclick="clickCounter()" type="button">صلوات</button></p>
+<div id="result"></div>
+<h3>برای شمارش صلوات روی  دکمه "صلوات" کلیک کنید</h3>
+<blockquote><h4>"شمارنده با ریلود کردن و یا بستن سایت  ادامه می یابد و دوباره شروع نمیشود"</h4></blockquote>
+
+
+
+
+
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <h3><a class="save" href="https://iporse.ir/69493">برای ثبت صلوات و فاتحه کلیک کنید.</a></h3>
+                <p>.</p>
             </div>
+             <h3 style="color:white;h"> اشتراک گذاری در واتساپ </h3>   
+
+    <!-- create a link using anchor tab -->  
+
+    <a href="whatsapp://send?text=This is WhatsApp sharing example using link"       data-action="share/whatsapp/share"  
+
+        target="_blank"> Share to WhatsApp </a>   
+
+<
         </section>
         <!-- end columns -->
         <h5 id="signature">یادبود | حسین روحی</h5>
         <footer>
             <p>&copy; 2022 Hossein Rouhi, Inc. All rights reserved.</p>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                
+                <li><a href="about.html">درباره یادبود</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
             </ul>
         </footer>
     </section>
