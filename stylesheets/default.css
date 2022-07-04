@@ -35,7 +35,7 @@ color: #b3c4b1;}
 margin: auto;
 color: black;
 border-radius: 46px;
-background: white;
+background: #b54756;
 box-shadow: 13px 13px 26px black;
 
 text-shadow: 0px 0px 5px ;}
@@ -210,10 +210,15 @@ a:active {
 a:focus {
 	outline: 1px dotted;
 }
+.wat{
+	margin: auto;
+	text-align: center;
 
+
+}
 .save {
 	text-decoration: underline  ;
-	text-shadow: 9px 15px 9px;
+	text-shadow: 9px 5px 14px;
 
 }
 
@@ -258,7 +263,10 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 }
 
 /* Layout
-----------------------------------------------------------------------------------------------------*/
+----------border-radius: 50px;
+	background: linear-gradient(145deg,#f0f0f0,#cacaca);
+	box-shadow: 14px 14px 28px #bebebe,-14px -14px 28px #ffffff;--->
+----------------------------------------------------------------------------------------*/
 
 html {
 	background: url(../images/body_bkgd.png) repeat-x;
